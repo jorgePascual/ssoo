@@ -1,0 +1,81 @@
+﻿León Pereira Alejandro
+UO258774
+
+Comentarios
+Hay un printstatus de más que no consigo quitar.
+
+Memconfig
+4
+12
+16
+96
+64
+16
+32
+
+Programas
+prog-SLEEP //duerme al proceso con trap 7
+./Simulator A prog-SLEEP
+
+prog-SLEEP-2 //duerme al proceso y se despierta a la vez que prog-SLEEP (si sus instantes de llegada son iguales)
+./Simulator A prog-SLEEP prog-SLEEP-2
+
+prog-SLEEP-3 //duerme al proceso más de una vez
+./Simulator A prog-SLEEP-3
+
+prog-V1-E0 // Tu programa que prueba el MEMADD 
+./Simulator A prog-V1-E0
+
+prog-V1-E5-c // Tu programa invalido por tamaño o prioridad 
+./Simulator A prog-V1-E5-c
+
+prog-V1-E6 // El programa con tamaño mayor que la memoria de un proceso 
+./Simulator A prog-V1-E6
+
+prog-V1-E7 // Tu programa con demasiadas instrucciones
+./Simulator A prog-V1-E7
+
+prog-V1-E12 // Tu programa que prueba Yield 
+./Simulator A prog-V1-E12
+
+prog-V1-E12-2//Con la misma prioridad que prog-V1-E12, que además es mayor que la del system idle process, para comprobar que se ejecuta antes que el por estar en la cola de procesos de usuario
+./Simulator A prog-V1-E12-2
+
+prog-V1-E15-a-1 //Tu programa con HALT 
+./Simulator A prog-V1-E15-a-1
+
+prog-V1-E15-a-2 //Tu programas con OS 
+./Simulator A prog-V1-E15-a-2
+
+prog-V1-E15-a-3 //Tu programa con YRET
+./Simulator A prog-V1-E15-a-3
+
+prog-V3-AccumulatorNegative //Programa para asegurarse de que no hay ningún problema con los acumuladores negativos
+./Simulator A prog-V3-AccumulatorNegative
+
+prog-V4-E2-a//invalid address (escribir en direccion muy grande)
+./Simulator A prog-V4-E2-a
+
+prog-V4-E2-a-2// invalid address (escribir en direccion negativa)
+./Simulator A prog-V4-E2-a-2
+
+prog-V4-E2-a-3// invalid address (leer de direccion muy grande)
+./Simulator A prog-V4-E2-a-3
+
+prog-V4-E2-a-4// invalid address (leer de direccion negativa)
+./Simulator A prog-V4-E2-a-4
+
+prog-V4-E2-b//invalid processor mode
+./Simulator A prog-V4-E2-b
+
+prog-V4-E2-c//division by zero
+./Simulator A prog-V4-E2-c
+
+prog-V4-E3-a //Programa con instrucciones que no existen
+./Simulator A prog-V4-E3-a
+
+prog-V4-E4-a//Programa llamada al sistema que no existe
+./Simulator A prog-V4-E4-a
+
+prog-TAMX //Siendo X un tamaño de programa, se utilizan para probar como se asignan los procesos a las particiones según el tamaño
+./Simulator A prog-TAM95 prog-TAM16 prog-TAM96

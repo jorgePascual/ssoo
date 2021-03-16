@@ -1,0 +1,12 @@
+//Programa llamada al sistema que no existe
+30
+5
+NOP
+ADD 5 0
+TRAP 666
+ADD 5 0
+ADD 5 0
+ADD 5 0
+ADD 5 0
+ADD 5 0
+TRAP 3

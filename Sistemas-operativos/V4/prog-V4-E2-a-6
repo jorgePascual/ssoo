@@ -1,0 +1,9 @@
+//Memadd direccion negativa
+30
+5
+NOP
+MEMADD 5 -10
+ADD 6 0
+ADD 6 0
+ADD 6 0
+TRAP 3

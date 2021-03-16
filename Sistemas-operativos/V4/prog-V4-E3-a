@@ -1,0 +1,11 @@
+//Programa con instrucciones que no existen
+30
+5
+NOP
+ADD 5 0
+B 99
+K 2
+ADD 6 0
+ADD 6 0
+ADD 6 0
+TRAP 3

@@ -1,0 +1,7 @@
+//Prueba TRAP 7 para que coincida whentowakeup y se despierten los dos procesos a la vez
+30
+5
+NOP
+ADD 3 0
+TRAP 7
+TRAP 3

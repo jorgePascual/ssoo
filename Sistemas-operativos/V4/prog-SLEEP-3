@@ -1,0 +1,16 @@
+//Prueba dormir al proceso mas de una vez
+30
+4
+NOP
+ADD 1
+TRAP 7
+ADD 2
+TRAP 7
+ADD 3
+TRAP 7
+ADD 4
+TRAP 7
+ADD 5
+TRAP 7
+ADD 6
+TRAP 3

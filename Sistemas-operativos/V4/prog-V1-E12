@@ -1,0 +1,11 @@
+//Prueba YIELD 1
+30
+150
+NOP
+ADD 1 0
+ADD 2 0
+ADD 3 0
+TRAP 4
+ADD 4 0
+ADD 5 0
+TRAP 3

@@ -1,0 +1,6 @@
+//invalid address
+30
+5
+NOP
+WRITE 333333
+TRAP 3

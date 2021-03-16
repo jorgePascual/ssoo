@@ -1,0 +1,6 @@
+//invalid address (leeer de direccion muy grande)
+30
+5
+NOP
+READ 10000000000
+TRAP 3

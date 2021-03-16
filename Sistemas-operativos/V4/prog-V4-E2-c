@@ -1,0 +1,6 @@
+//division by zero
+30
+5
+NOP
+DIV 6 0
+TRAP 3

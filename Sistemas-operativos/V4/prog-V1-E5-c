@@ -1,0 +1,9 @@
+
+5
+NOP
+ADD 5 0
+WRITE 15
+MEMADD 5 15
+ADD 40 40 //Machacar el registro acumulador
+READ 15
+TRAP 3

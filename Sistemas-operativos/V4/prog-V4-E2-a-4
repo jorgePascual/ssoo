@@ -1,0 +1,6 @@
+//invalid address (leer de direccion negativa)
+30
+5
+NOP
+READ -10
+TRAP 3

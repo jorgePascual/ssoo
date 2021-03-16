@@ -1,0 +1,9 @@
+//Memadd direccion muy grande
+30
+5
+NOP
+MEMADD 5 1000000
+ADD 6 0
+ADD 6 0
+ADD 6 0
+TRAP 3
